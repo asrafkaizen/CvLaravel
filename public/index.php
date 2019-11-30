@@ -52,36 +52,46 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
       </ul>
     </div>
   </nav>
 
   <div class="container-fluid p-0">
 
+      
+        <!-- <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""> -->
+
+    <div class="d-lg-none d-md-none" style="text-align:center">
+        <img class="img-fluid rounded-circle img-thumbnail" src="img/profile.jpg" alt="" width="250px">
+    </div>
+
+    <hr class="m-0">
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+    
       <div class="w-100">
         <h1 class="mb-0">Asyraf
           <span class="text-primary">Arifin</span>
         </h1>
         <div class="subheading mb-5">JC 2270, Jln LKP 8, Tmn Lipat Kajang Perdana, Jasin 77000 Melaka,  +6011-3257 6957 ·
-          <a href="mailto:asrafkaizen@gmail.com">asrafkaizen@gmail.com</a>
+          <a href="mailto:asrafkaizen@gmail.com" target="_blank">asrafkaizen@gmail.com</a>
         </div>
         <p class="lead mb-5">Bachelor of Computer Science (Hons.) Netcentric Computing, UiTM Jasin, Melaka</p>
         <div class="social-icons">
-          <a href="#">
-            <i class="fab fa-linkedin-in"></i>
+          <a href="https://api.whatsapp.com/send?phone=601132576957" target="_blank">
+            <i class="fab fa-whatsapp"></i>
           </a>
-          <a href="github.com/asrafkaizen">
+          <a href="https://t.me/asrafkaizen" target="_blank">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="https://github.com/asrafkaizen" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-          <a href="twitter.com/asrafkaizen">
-            <i class="fab fa-twitter"></i>
+          <a href="https://play.google.com/store/apps/developer?id=Asyraf+Arifin&hl=en_IN" target="_blank">
+            <i class="fab fa-google-play"></i>
           </a>
-          <a href="fb.com/asrafkaizen">
-            <i class="fab fa-facebook-f"></i>
+          <a href="https://twitter.com/asrafkaizen" target="_blank">
+            <i class="fab fa-twitter"></i>
           </a>
         </div>
       </div>
@@ -106,23 +116,12 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Junior Android App Developer</h3>
+            <h3 class="mb-0">Junior Android App and Web Developer</h3>
             <div class="subheading mb-3">Freelance</div>
-            <p>After an internship in debugging native java android apps, have deployed 5 apps in Google Play Store. Some are personal projects for training, three of them were for companies/individuals upon request. Very basic applications without involving remote database.</p>
+            <p>After an internship in debugging native java android apps, have deployed 5 apps in Google Play Store. Some are personal projects for training, three of them were for companies/individuals upon request. Very basic applications without involving remote database. For websites, have deployed two websites for company's request using basic PHP. Currently practising the usage of Cake.php and Laravel</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">September 2015 - Present</span>
-          </div>
-        </div>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Junior Web Developer</h3>
-            <div class="subheading mb-3">Freelance</div>
-            <p>Completed two websites upon company request, using basic PHP. Now learning in PHP frameworks (Cake.php & Laravel).</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">March 2015 - Present</span>
           </div>
         </div>
 
@@ -138,24 +137,23 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">University of Colorado Boulder</h3>
-            <div class="subheading mb-3">Bachelor of Science</div>
-            <div>Computer Science - Web Development Track</div>
-            <p>GPA: 3.23</p>
+            <h3 class="mb-0">UiTM Tapah, Perak</h3>
+            <div class="subheading mb-3">Diploma of Computer Science</div>
+            <p>CGPA: 3.91</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2006 - May 2010</span>
+            <span class="text-primary">May 2015 - February 2017</span>
           </div>
         </div>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
-            <h3 class="mb-0">James Buchanan High School</h3>
-            <div class="subheading mb-3">Technology Magnet Program</div>
-            <p>GPA: 3.56</p>
+            <h3 class="mb-0">UiTM Jasin, Melaka</h3>
+            <div class="subheading mb-3">Bachelor in Computer Science, Netcentric Computing</div>
+            <p>Current CGPA: 3.85</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">August 2002 - May 2006</span>
+            <span class="text-primary">September 2017 - Present</span>
           </div>
         </div>
 
@@ -177,52 +175,19 @@
             <i class="fab fa-css3-alt"></i>
           </li>
           <li class="list-inline-item">
+            <i class="fab fa-php"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
             <i class="fab fa-js-square"></i>
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-sass"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-less"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-gulp"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-grunt"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-npm"></i>
+            <i class="fab fa-git"></i>
           </li>
         </ul>
 
-        <div class="subheading mb-3">Workflow</div>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Mobile-First, Responsive Design</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
-        </ul>
       </div>
     </section>
 
@@ -231,46 +196,14 @@
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
       <div class="w-100">
         <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+        <p>Apart from programming, my hobby is resistance training, and reading. The books I enjoy are usually within the topics of motivation and self-development, such as "7 Habits of Highly Effective People", and John C. Maxwell's "Leadership 101".</p>
+        <p class="mb-0">I also really enjoy volunteerism works. I was invited as a guest facillitator for Synergy Challenge Camp 2016 at Kem PLKN Tanaki, Tambunan. I have been involved in over 20 motivational programs for students all over Malaysia including UNITEN, UTP, and Melaka Matriculation College.</p>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Mobile Web Specialist - Google Certification</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            2<sup>nd</sup>
-            Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            1<sup>st</sup>
-            Place - James Buchanan High School - Hackathon 2006</li>
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - James Buchanan High School - Hackathon 2005</li>
-        </ul>
-      </div>
-    </section>
+
 
   </div>
 
