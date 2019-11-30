@@ -61,8 +61,8 @@
       
         <!-- <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""> -->
 
-    <div class="d-lg-none d-md-none" style="text-align:center">
-        <img class="img-fluid rounded-circle img-thumbnail" src="img/profile.jpg" alt="" width="250px">
+    <div class="d-lg-none d-md-none" style="text-align:center; background-color:#bd5d38">
+        <img class="img-fluid rounded-circle img-thumbnail my-2" src="img/profile.jpg" alt="" width="200px">
     </div>
 
     <hr class="m-0">
@@ -78,9 +78,6 @@
         </div>
         <p class="lead mb-5">Bachelor of Computer Science (Hons.) Netcentric Computing, UiTM Jasin, Melaka</p>
         <div class="social-icons">
-          <a href="https://api.whatsapp.com/send?phone=601132576957" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-          </a>
           <a href="https://t.me/asrafkaizen" target="_blank">
             <i class="fab fa-telegram-plane"></i>
           </a>
